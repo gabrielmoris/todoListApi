@@ -4,7 +4,8 @@
   "description": "RESFRUL API todoList",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -13,12 +14,18 @@
   "keywords": [
     "REST",
     "API",
-    "TODO"
+    "TODOLIST"
   ],
   "author": "Gabriel C Moris",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gabrielmoris/todoListApi/issues"
   },
-  "homepage": "https://github.com/gabrielmoris/todoListApi#readme"
+  "homepage": "https://github.com/gabrielmoris/todoListApi#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
